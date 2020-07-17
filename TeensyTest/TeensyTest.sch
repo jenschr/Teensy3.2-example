@@ -1011,7 +1011,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 2250 4250 2400
 Wire Wire Line
-	6600 1050 7100 1050
+	6600 1050 7000 1050
 $Comp
 L power:+3V3 #PWR0125
 U 1 1 5EC710E1
@@ -1027,4 +1027,29 @@ NoConn ~ 5300 2800
 NoConn ~ 5300 2700
 Text Notes 6050 2550 0    50   ~ 0
 VOUT33 will generate warning, but that’s ok
+$Comp
+L Device:C_Small C11
+U 1 1 5F62A840
+P 7000 1150
+F 0 "C11" H 7092 1196 50  0000 L CNN
+F 1 "0.1uF" H 7092 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7000 1150 50  0001 C CNN
+F 3 "~" H 7000 1150 50  0001 C CNN
+	1    7000 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 5F62A84A
+P 7000 1250
+F 0 "#PWR0134" H 7000 1000 50  0001 C CNN
+F 1 "GND" H 7005 1077 50  0000 C CNN
+F 2 "" H 7000 1250 50  0001 C CNN
+F 3 "" H 7000 1250 50  0001 C CNN
+	1    7000 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 1050
+Wire Wire Line
+	7000 1050 7100 1050
 $EndSCHEMATC
