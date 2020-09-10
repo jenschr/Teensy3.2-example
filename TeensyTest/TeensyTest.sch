@@ -860,18 +860,16 @@ D32
 Text Label 14600 4100 0    50   ~ 0
 D25
 $Comp
-L Connector:Conn_01x03_Female J3
+L Connector:Conn_01x04_Female J3
 U 1 1 5ED4B5DF
 P 15950 3300
 F 0 "J3" H 15978 3326 50  0000 L CNN
-F 1 "Conn_01x03_Female" H 15978 3235 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 15950 3300 50  0001 C CNN
+F 1 "Conn_01x04_Female" H 15978 3235 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 15950 3300 50  0001 C CNN
 F 3 "~" H 15950 3300 50  0001 C CNN
 	1    15950 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15750 3400 14450 3400
 Wire Wire Line
 	14450 3200 15400 3200
 Wire Wire Line
@@ -899,7 +897,6 @@ NoConn ~ 14450 4000
 NoConn ~ 14450 3900
 NoConn ~ 14450 3800
 NoConn ~ 14450 3700
-NoConn ~ 14450 3300
 NoConn ~ 14450 2900
 NoConn ~ 14450 2800
 NoConn ~ 14450 2700
@@ -1052,4 +1049,18 @@ $EndComp
 Connection ~ 7000 1050
 Wire Wire Line
 	7000 1050 7100 1050
+Wire Wire Line
+	15050 3400 15050 3500
+Wire Wire Line
+	15050 3500 15750 3500
+Wire Wire Line
+	14450 3400 15050 3400
+Wire Wire Line
+	14450 3300 15200 3300
+Wire Wire Line
+	15200 3300 15200 3400
+Wire Wire Line
+	15200 3400 15750 3400
+Text Label 14600 3300 0    50   ~ 0
+D13
 $EndSCHEMATC
