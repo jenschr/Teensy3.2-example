@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 2020-05-20_13-09-46)(type Legacy)(uri ${KIPRJMOD}/2020-05-20_13-09-46.lib)(options "")(descr ""))
+  (lib (name TeensyTest-rescue)(type Legacy)(uri ${KIPRJMOD}/TeensyTest-rescue.lib)(options "")(descr ""))
 )
